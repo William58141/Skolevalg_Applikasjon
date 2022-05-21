@@ -1,0 +1,81 @@
+
+  table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+  }
+  tbody {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: stretch;
+    border: 1px solid black;
+    flex-direction: column;
+    
+  }
+  tr {
+    flex-basis: 33.33333333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px 10px;
+    flex-direction: column;
+    
+   
+    
+  }
+  tr + tr {
+  border: 1px solid black;
+  
+  }
+  
+  th, td {
+    flex-basis: 100%;
+    text-align: left;
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+
+  }
+  th {
+    font-weight: bold;
+    display: none; 
+  
+  }
+
+  ::before{
+    font-weight: bold;
+    
+  }
+
+  @media screen and (min-width: 1200px){
+
+    tbody{
+        border: 2px solid black;
+      
+    }  
+    }
+
+    @media screen and (min-width: 600px){
+
+      tbody{
+          border: 2px solid black;
+        
+      }  
+      }
+  
+
+td:nth-of-type(1):before { content: "Bruker:";}
+td:nth-of-type(2):before { content: "Etternavn:";}
+td:nth-of-type(3):before { content: "Fornavn:";}
+td:nth-of-type(4):before { content: "Stemme:";}
+td:nth-of-type(5):before { content: "Fødselsdato:";}
+td:nth-of-type(6):before { content: "Mandat:";}
+td:nth-of-type(7):before { content: "Antall forsøk:";}
+td:nth-of-type(8):before { content: "Siste forsøk:";}
+
+/*Denne siden er utviklet av Bendik, sist endret 03.06.2021 */ 
+/*Denne siden er kontrollert av Hanne, sist endret 03.06.2021 */ 

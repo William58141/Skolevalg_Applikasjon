@@ -1,0 +1,129 @@
+
+  table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+  }
+  tbody {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: stretch;
+    border: 1px solid black;
+    flex-direction: column;
+    
+  }
+  tr {
+    flex-basis: 33.33333333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px 10px;
+    flex-direction: column;
+    
+   
+    
+  }
+  tr + tr {
+  border: 1px solid black;
+  
+  }
+  
+  th, td {
+    flex-basis: 100%;
+    text-align: left;
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+
+  }
+  th {
+    font-weight: bold;
+    display: none; 
+  
+  }
+
+  ::before{
+    font-weight: bold;
+    
+  }
+
+  
+  table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+  }
+  tbody {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: stretch;
+    border: 1px solid black;
+    flex-direction: column;
+    
+  }
+  tr {
+    flex-basis: 33.33333333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px 10px;
+    flex-direction: column;
+    
+   
+    
+  }
+  tr + tr {
+  border: 1px solid black;
+  
+  }
+  
+  th, td {
+    flex-basis: 100%;
+    text-align: left;
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+
+  }
+  th {
+    font-weight: bold;
+    display: none; 
+  
+  }
+
+  ::before{
+    font-weight: bold;
+    
+  }
+
+  @media screen and (min-width: 1200px){
+
+    tbody{
+        border: 2px solid black;
+      
+    }  
+    }
+
+    @media screen and (min-width: 600px){
+
+      tbody{
+          border: 2px solid black;
+        
+      }  
+      }
+
+
+td:nth-of-type(1):before { content: "Bruker:";}
+td:nth-of-type(2):before { content: "Fakultet:";}
+td:nth-of-type(3):before { content: "Institutt:";}
+td:nth-of-type(4):before { content: "Informasjon:";}
+td:nth-of-type(5):before { content: "Stemmer:";}
+/*Denne siden er utviklet av William sist endret 01.05.2021 */ 

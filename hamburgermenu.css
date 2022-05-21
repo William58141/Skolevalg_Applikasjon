@@ -1,0 +1,81 @@
+
+#navigasjon {
+  width: 100%;
+  background: #000;
+  position: sticky;
+  top: 0;
+}
+
+
+#navigasjon label, #hamburger { display: none; }
+
+
+#meny { display: flex; }
+#meny a {
+  width: 20%;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#meny a:hover {
+  background: #401408;
+}
+
+
+
+  
+  #navigasjon label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  
+  #meny a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+  #meny { display: none; }
+  #navigasjon input:checked ~ #meny { display: block; }
+  
+  @media screen and (min-width: 1200px){
+    #navigasjon label, #hamburger { display: none; }
+    #meny { display: flex; }
+    #meny a {
+    width: 20%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+    #meny a:hover {
+    background: #401408;
+}
+  }
+
+
+  @media screen and (min-width: 600px){
+    #navigasjon label, #hamburger { display: none; }
+    #meny { display: flex; }
+    #meny a {
+    width: 20%;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+    #meny a:hover {
+    background: #401408;
+}
+  }
+
+/* linje 38 - 77 er utviklet av: William Fosmark Haugland Sist endret 10.12.2020 */
+/* linje 1-38 er utviklet av: Oskar Brekke Sist endret 10.12.2020 */
+/* Denne siden er kontrollert av: Hanne Visdal Bjørnson endret 10.12.2020 */

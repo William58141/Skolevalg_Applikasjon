@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.tekstboks{
+    width: 250px;
+    height: 40px;
+    background: white;
+    border-radius: 15px;
+    margin: 9px auto;
+    border: black;
+}
+
+.tekstboks input{
+    background: none;
+    border: black;
+    outline: none;
+    text-align: center;
+    width: 90%;
+    line-height: 37px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+.beholder h1{
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    margin: 16px auto;
+    display: block;
+    text-align: center;
+}
+.knapp{
+    width: 250px;
+    height: 40px;
+    background: #3498db;
+    border-radius: 15px;
+    margin: 16px auto;
+    display: block;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: black;
+    color: 	#FFFFFF;
+    cursor: pointer;
+}
+
+.knapp2{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 250px;
+    padding: 15px 0;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s all;
+    color: black;
+}
+@media screen and (min-width:1200px) {
+    .tekstboks{
+        width: 260px;
+        height: 50px;
+        background: white;
+        border-radius: 15px;
+        margin: 9px auto;
+        border: black;
+    }
+    .knapp{
+        width: 260px;
+        height: 50px;
+        background: #3498db;
+        border-radius: 15px;
+        margin: 16px auto;
+        display: block;
+        font-family: sans-serif;
+        font-size: 18px;
+        border: black;
+        color: 	#FFFFFF;
+        cursor: pointer;
+    }
+}
+@media screen and (min-width:600px) {
+    .tekstboks{
+        width: 260px;
+        height: 50px;
+        background: white;
+        border-radius: 15px;
+        margin: 9px auto;
+        border: black;
+    }
+    .knapp{
+        width: 260px;
+        height: 50px;
+        background: #3498db;
+        border-radius: 15px;
+        margin: 16px auto;
+        display: block;
+        font-family: sans-serif;
+        font-size: 18px;
+        border: black;
+        color: 	#FFFFFF;
+        cursor: pointer;
+    }
+}
+/*  Denne siden er utviklet av William Fosmark Haugland, siste gang endret 15.10.2020  */
+/*  Denne siden er Kontrollert av Oskar Brekke Fuglem, siste gang endret 16.10.2020  */

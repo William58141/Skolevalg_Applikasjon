@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #e6f5ff;
+}
+
+.beholder{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    background: #e6f5ff;
+    padding: 0px;
+    box-sizing: border-box;
+    min-height: 400px;
+}
+.full-vidde{
+    width: 100%;
+}
+
+.main{
+    width: 100%;
+    min-height: 400px;
+    background: #ccc;
+    float: left;
+}
+
+.sidebar{
+    width: 28%;
+    min-height: 400px;
+    background: #ccc;
+    float: right;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.margin-top20px{
+    margin-top: 20px;
+}
+.topp-main{
+    background: #ccc;
+    padding: 20px;
+    background: #f1f1f1;
+}
+.form,h1,p{
+    display: block;
+    text-align: center;
+}
+.form input {
+    margin: 4px 9px 5px 0;
+    padding: 8px;
+    background-color: white;
+    border: 1.5px solid grey;
+}
+
+button {
+    margin: 4px 9px 5px 0;
+    padding: 8px;
+    background-color: white;
+    border: 1.5px solid grey;
+}
+
+
+.footer{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:black;
+  color: white;
+  text-align: center;
+
+}
+
+
+@media screen and (min-width: 600px)
+{
+    .form,h1,p{
+        display:left;
+        text-align: left;
+    }
+
+}
+
+
+@media screen and (min-width: 1200px)
+{
+
+    .form,h1,p{
+        display:left;
+        text-align: left;
+    }
+
+    .footer{
+        position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color:black;
+      color: white;
+      text-align: center;
+    
+    }
+}
+
+
+/* Denne delen, (Linje 1 til 61) er utviklet av Oskar Brekke Fuglem, siste gang endret 8.2.2021  */ 
+
+/* Denne delen, (Linje 61 til 104) er utviklet av William Fosmark Haugland, siste gang endret 8.2.2021  */ 
+
+/* Denne siden er kontrollert av Bendik borge øttl, siste gang endret 8.2.2021  */ 

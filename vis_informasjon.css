@@ -1,0 +1,80 @@
+
+  table {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+  }
+
+  tbody {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    align-items: stretch;
+    border: 1px solid black;
+    flex-direction: column;
+    
+  }
+
+  tr {
+    flex-basis: 33.33333333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 5px 10px;
+    flex-direction: column;  
+  }
+  
+  tr + tr {
+  border: 1px solid black;  
+  }
+  
+  th, td {
+    flex-basis: 100%;
+    text-align: left;
+    display: flex;
+    padding: 2px;
+    flex-direction: column;
+  }
+  
+  th {
+    font-weight: bold;
+    display: none; 
+  }
+
+  ::before{
+    font-weight: bold;  
+  }
+
+  @media screen and (min-width: 1200px){
+
+  tbody{
+      border: 2px solid black;
+    
+  }  
+  }
+
+  @media screen and (min-width: 600px){
+
+    tbody{
+        border: 2px solid black;
+      
+    }  
+    }
+
+
+  
+
+
+
+td:nth-of-type(1):before { content: "Startforslag: ";}
+td:nth-of-type(2):before { content: "Sluttforslag: ";}
+td:nth-of-type(3):before { content: "Startvalg: ";}
+td:nth-of-type(4):before { content: "Sluttvalg: ";}
+td:nth-of-type(5):before { content: "Kontrollert: ";}
+td:nth-of-type(6):before { content: "Tittel: ";}
+
+/*Denne siden er utviklet av Oskar, sist endret 03.06.2021 */ 
+/*Denne siden er kontrollert av William, sist endret 03.06.2021 */ 
