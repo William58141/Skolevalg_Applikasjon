@@ -12,5 +12,4 @@ class myPDO extends PDO {
       parent::__construct($dns,$usr,$pwd);     
     }         
   }
-  /* Denne siden er utviklet av: Oskar Brekke Fuglem Sist endret 10.12.2020 */
 ?>
