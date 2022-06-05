@@ -76,7 +76,6 @@ echo $e->getMessage();
 }
 
 }
-// Denne delen, (linje 43-79) er utviklet av Hanne Visdal Bjørnson sist endret 03.06.2021
 ?>
 
 <html>
@@ -95,5 +94,4 @@ echo $e->getMessage();
 </html>
 <?php
 include("slutt.php");
-//Denne delen, (linje 80-99) er utviklet av Bendik Borge Øttl sist endret 03.06.2021
 ?>
